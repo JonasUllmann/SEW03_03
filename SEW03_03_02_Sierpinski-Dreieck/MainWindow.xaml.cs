@@ -28,7 +28,7 @@ namespace SEW03_03_02_Sierpinski_Dreieck
         public static void TurtleMain()
         {
 
-            int level = 7;
+            int level = 5;
             float startsize = 800;
 
             Random rnd = new Random();

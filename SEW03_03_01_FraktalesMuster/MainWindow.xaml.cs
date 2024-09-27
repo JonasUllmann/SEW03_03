@@ -28,17 +28,17 @@ namespace SEW03_03_01_FraktalesMuster
         public static void TurtleMain()
         { 
 
-            int level = 0;
+            int level = 5;
 
             Random rnd = new Random();
-            Woopec.Core.Color[] myColors = new Woopec.Core.Color[5];
+            Woopec.Core.Color[] myColors = new Woopec.Core.Color[level];
 
-            for (int i = 0;  i < 5; i++)
+            for (int i = 0;  i < level; i++)
             {
                 myColors[i] = new Woopec.Core.Color(rnd.Next(0,255), rnd.Next(0, 255), rnd.Next(0, 255));
             }
 
-            drawH(200, 0, 0, 4, myColors);
+            drawH(200, 0, 0, level - 1, myColors);
             
 
             static void drawline(float x0, float y0, float x1, float y1, Woopec.Core.Color myColor)
