@@ -28,7 +28,7 @@ namespace SEW03_03_02_Sierpinski_Dreieck
         public static void TurtleMain()
         {
 
-            int level = 8;
+            int level = 7;
             float startsize = 800;
 
             Random rnd = new Random();
@@ -41,7 +41,7 @@ namespace SEW03_03_02_Sierpinski_Dreieck
 
             drawPattern(startsize, 0, 0, level-1, myColors);
             level--;
-            drawtri(startsize / 2, 0, 0, level, myColors);
+            drawtri(startsize / 2, 0, -startsize/4, level, myColors);
 
 
 
@@ -77,7 +77,21 @@ namespace SEW03_03_02_Sierpinski_Dreieck
                 }
 
                 float half = size / 2;
+                float quarter = size / 4;
+                float threequarter = quarter * 3;
 
+
+                drawline(x, y - half, x - quarter, y, myColors[level]);
+                drawtri(half, x - half, y - quarter, level - 1,myColors);
+                drawline(x - quarter, y, x - half, y + half, myColors[level]);
+
+                drawline(x - half, y + half, x, y + half, myColors[level]);
+                drawtri(half, x, y + threequarter, level - 1, myColors);
+                drawline(x, y + half, x + half, y + half, myColors[level]);
+
+                drawline(x + half, y + half, x + quarter, y, myColors[level]);
+                drawtri(half, x + half, y - quarter, level - 1, myColors);
+                drawline(x + quarter, y, x, y - half, myColors[level]);
                 
 
                 
