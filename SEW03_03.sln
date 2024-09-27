@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW03_03_01_FraktalesMuster", "SEW03_03_01_FraktalesMuster\SEW03_03_01_FraktalesMuster.csproj", "{CD5F592D-7A7B-4A4F-B993-8D41C9AABA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW03_03_02_Sierpinski-Dreieck", "SEW03_03_02_Sierpinski-Dreieck\SEW03_03_02_Sierpinski-Dreieck.csproj", "{ACCEF09D-F24F-48A6-87DC-47F27379AB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD5F592D-7A7B-4A4F-B993-8D41C9AABA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5F592D-7A7B-4A4F-B993-8D41C9AABA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5F592D-7A7B-4A4F-B993-8D41C9AABA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5F592D-7A7B-4A4F-B993-8D41C9AABA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCEF09D-F24F-48A6-87DC-47F27379AB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCEF09D-F24F-48A6-87DC-47F27379AB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCEF09D-F24F-48A6-87DC-47F27379AB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCEF09D-F24F-48A6-87DC-47F27379AB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18994B31-9D9D-40D1-9619-7CC3F68DFF3F}
+	EndGlobalSection
+EndGlobal
