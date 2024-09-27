@@ -27,7 +27,7 @@ namespace SEW03_03_01_FraktalesMuster
 
         public static void TurtleMain()
         { 
-
+            //über diese Variable ist einstellbar wie oft sich das muster wiederholen soll
             int level = 5;
 
             Random rnd = new Random();

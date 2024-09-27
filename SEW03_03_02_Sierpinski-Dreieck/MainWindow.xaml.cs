@@ -27,7 +27,7 @@ namespace SEW03_03_02_Sierpinski_Dreieck
 
         public static void TurtleMain()
         {
-
+            //über diese Variable ist einstellbar wie oft sich das muster wiederholen soll
             int level = 5;
             float startsize = 800;
 
